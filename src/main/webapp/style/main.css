@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+
+
+
+#topbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 13%;
+	background-color: #525252;
+}
+
+#image {
+	height:100px; 
+	width: 100px;
+}
+
+#name {
+	background-color: transparent;
+	border: none;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	position: relative;
+	left: 0px;
+    top: -40px;
+}
+
+#name:hover {
+	cursor:pointer;
+}
+
+#bottombar {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+	background-color: #525252;
+	float: left;
+}
+
+#home, #upload, #library, #account {
+	background-color: transparent;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	width:24%
+}
+
+#home:hover {
+	background-color: #3B3B3B;
+	cursor:pointer;
+}
+#upload:hover {
+	background-color: #3B3B3B;
+	cursor:pointer;
+}
+#library:hover {
+	background-color: #3B3B3B;
+	cursor:pointer;
+}
+#account:hover {
+	background-color: #3B3B3B;
+	cursor:pointer;
+}

@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.item {
+  padding: 10px;
+}
+
+.btn {
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: rgb(4, 174, 241);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn:hover,
+.btn:focus {
+  background: rgb(4, 174, 241);
+}
+.btn:active {
+  background: blue;
+}
+
+.btn-outline {
+  outline: none;
+  display: block;
+  border: solid 1px rgb(4, 174, 241);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: white;
+  color: rgb(4, 174, 241);
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn-outline:hover,
+.btn-outline:focus {
+  background: rgb(4, 174, 241);
+  color: white;
+}
+.btn-outline:active {
+  background: white;
+  color: rgb(4, 174, 241);
+}
